@@ -1,7 +1,30 @@
 aid: humanq
-name: Humanq
-description: Humanq is a company surfaced as a portfolio company of kindred-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/humanq.png
+name: HumanQ
+description: >-
+  HumanQ is an execution-capability and intelligence platform that helps
+  organizations move critical work forward through structured, live execution
+  sprints called QPods. Each QPod is a 60-minute facilitated session, led by
+  trained "Catalysts," for small groups of up to six participants working
+  through decision drag, unclear ownership, and cross-team stalls. HumanQ is
+  offered as HumanQ Scale (an enterprise-wide program with weekly and monthly
+  tracks, on-demand drop-ins, and deep customization) and HumanQ Teams (a
+  manager-led tool for up to four groups, live in two weeks with no contract).
+  Progress is tracked through the QStart, QImpact, and QSignal measurement
+  framework, with delivery across 74 countries. HumanQ is a portfolio company of
+  Kindred Ventures. It is a managed-services platform and does not currently
+  publish a public API, SDK, or developer documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/humanq/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Execution
+- Facilitation
+- Team Productivity
+- Leadership Development
+- Enterprise Software
+- Coaching
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,16 @@ maintainers:
 common:
 - type: Website
   url: https://humanq.com/
+- type: Pricing
+  url: https://humanq.com/pricing
+- type: TermsOfService
+  url: https://humanq.com/terms-of-service/
+- type: PrivacyPolicy
+  url: https://humanq.com/privacy-policy/
+- type: DomainSecurity
+  url: security/humanq-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
